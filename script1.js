@@ -491,7 +491,7 @@
    function fs_download() {
 
        while ((Rnum == Rnum_previous) || mas_kol_tf[Rnum] > 0) {
-           Rnum = getRandomInt(0, 75);
+           Rnum = getRandomInt(0, 102);
 
        }
        if (getRandomInt(0, 1) == 0) {
