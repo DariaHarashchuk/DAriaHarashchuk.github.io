@@ -516,13 +516,13 @@
        if (bNum == ans) {
            mas_kol_tf[Rnum] += 1;
            document.getElementById('past').style.background = "#CCFFCC";
-           document.getElementById('p_past').innerHTML = "Правильно:) Завжди наголошуйте  " + arr[Rnum].f + "  так!";
+           document.getElementById('p_past').innerHTML = "Правильно:) Завжди наголошуйте  " + arr[Rnum].f + "  !";
            result_t += 1;
 
        } else {
            mas_kol_tf[Rnum] -= 1;
            document.getElementById('past').style.background = "#FAEBD7";
-           document.getElementById('p_past').innerHTML = "Неправильно:((( Завжди наголошуйте  " + arr[Rnum].f + "  так!";
+           document.getElementById('p_past').innerHTML = "Неправильно:((( Завжди наголошуйте  " + arr[Rnum].f + "  !";
            result_f += 1;
        }
        result_line();
