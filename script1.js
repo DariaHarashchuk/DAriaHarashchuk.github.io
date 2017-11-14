@@ -159,8 +159,8 @@
        s: "отамАн"
    }
    arr[37] = {
-       f: "черговИй",
-       s: "чергОвий"
+       f: "черговИй(ім.)",
+       s: "чергОвий(ім.)"
    }
 
    arr[38] = {
@@ -490,7 +490,7 @@
 
    function fs_download() {
 
-       while ((Rnum == Rnum_previous) || mas_kol_tf[Rnum] > 1) {
+       while ((Rnum == Rnum_previous) || mas_kol_tf[Rnum] > 0) {
            Rnum = getRandomInt(0, 75);
 
        }
